@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi Port</title>
+    <link rel="icon" type="image/png" href="Gift_pic.jpeg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="grain-overlay" aria-hidden="true"></div>
+
+   
+    <header class="site-header">
+      <div class="navbar-shell">
+        <nav class="navbar" aria-label="Primary Navigation">
+          <a href="#home" class="brand"><i class="fa-solid fa-face-laugh-wink"></i></a>
+
+          <ul class="nav-links" id="nav-menu">
+            <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+            <li><a href="#works" class="nav-link" data-section="works">Works</a></li>
+            <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button
+              type="button"
+              id="theme-toggle"
+              class="icon-btn theme-toggle"
+              aria-label="Toggle dark mode"
+              aria-pressed="false"
+            >
+              <i class="fa-solid fa-moon" id="theme-icon" aria-hidden="true"></i>
+            </button>
+
+            <button
+              type="button"
+              id="menu-toggle"
+              class="icon-btn menu-toggle"
+              aria-label="Open navigation menu"
+              aria-expanded="false"
+              aria-controls="mobile-drawer"
+            >
+              <i class="fa-solid fa-bars" id="menu-icon" aria-hidden="true"></i>
+            </button>
+          </div>
+        </nav>
+
+       
+        <div class="mobile-drawer" id="mobile-drawer" hidden>
+          <ul class="mobile-nav-list">
+            <li><a href="#home" class="mobile-nav-link active" data-section="home">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link" data-section="about">About</a></li>
+            <li><a href="#works" class="mobile-nav-link" data-section="works">Works</a></li>
+            <li><a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-wrapper">
+      
+      <div class="hero-stack-group">
+        <section id="home" class="card-section hero-card reveal">
+          <div class="container hero-inner">
+            <div class="avatar-cluster">
+              <div class="avatar-frame">
+               
+                <img
+                  src="Gift_pic.jpeg"
+                  alt="Gift_pic"
+                  class="avatar-img"
+                  width="120"
+                  height="120"
+                  referrerpolicy="no-referrer"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                <span class="avatar-fallback" aria-hidden="true">GC</span>
+              </div>
+              <span class="floating-name-pill">Gift Chinedu</span>
+            </div>
+
+            <h1 class="hero-title">
+              Turning creative ideas into
+              <span class="heading-muted">simple Front-End projects</span>
+            </h1>
+
+            <div class="hero-cta-wrap">
+             
+              <a href="#" class="btn btn-primary placeholder-link" data-placeholder-link="true">
+                <span>Hire Me</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+
+       
+        <section class="card-section tech-strip-card reveal" aria-label="Core Technologies">
+          <div class="container">
+            <ul class="tech-strip">
+              <li class="tech-item">
+                <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                <span>HTML5</span>
+              </li>
+              <li class="tech-item">
+                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                <span>CSS3</span>
+              </li>
+              <li class="tech-item">
+                <i class="fa-brands fa-js" aria-hidden="true"></i>
+                <span>JavaScript</span>
+              </li>
+              <li class="tech-item">
+                <i class="fa-brands fa-react" aria-hidden="true"></i>
+                <span>React</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      
+      <section id="about" class="card-section about-card reveal">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pill">About Me</span>
+            <h2 class="section-title">
+              Building thoughtful
+              <span class="heading-muted">web interfaces</span>
+            </h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy-col">
+              <p class="about-lead">
+                I'm a Junior Front-End Developer passionate about building clean, responsive, and user-friendly web experiences. Proficient in HTML5, CSS, JavaScript, and React, with an interest in leveraging AI prompting to improve development workflows. I completed a 3.5-month internship at NitHub (June–September 2026), where I strengthened my technical skills and gained practical development experience.
+              </p>
+
+              <div class="internship-timeline-pill">
+                <span class="timeline-icon">
+                  <i class="fa-regular fa-building" aria-hidden="true"></i>
+                </span>
+                <div class="timeline-meta">
+                  <span class="timeline-role">Front-End Developer Intern — NitHub</span>
+                  <span class="timeline-dates">June – September 2026 (3.5 Months)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-highlights-col">
+              <article class="highlight-card">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                </div>
+                <div class="highlight-body">
+                  <h3>Clean &amp; Responsive UI</h3>
+                  <p>Mobile-first layouts crafted with semantic HTML and balanced spacing.</p>
+                </div>
+              </article>
+
+              <article class="highlight-card">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-code" aria-hidden="true"></i>
+                </div>
+                <div class="highlight-body">
+                  <h3>HTML5 · CSS · JavaScript · React</h3>
+                  <p>Strong fundamentals across modern client-side interfaces and components.</p>
+                </div>
+              </article>
+
+              <article class="highlight-card">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+                </div>
+                <div class="highlight-body">
+                  <h3>AI-Assisted Workflow</h3>
+                  <p>Leveraging structured AI prompting to accelerate prototyping and debugging.</p>
+                </div>
+              </article>
+
+              <article class="highlight-card">
+                <div class="highlight-icon">
+                  <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
+                </div>
+                <div class="highlight-body">
+                  <h3>Internship @ NitHub, Jun–Sep 2026</h3>
+                  <p>Hands-on engineering collaboration and practical production experience.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="works" class="card-section works-card reveal">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pill">Works</span>
+            <h2 class="section-title">
+              Selected projects
+              <span class="heading-muted">I've built</span>
+            </h2>
+          </div>
+
+          <div class="projects-grid">
+           
+            <article class="project-card project-card--featured">
+              <div class="project-preview">
+                <div class="project-preview-grid" aria-hidden="true"></div>
+                <div class="project-preview-icon">
+                  <i class="fa-solid fa-cloud-sun" aria-hidden="true"></i>
+                </div>
+                <span class="project-preview-label">Forecast Interface</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top-row">
+                  <h3 class="project-title">Weather App</h3>
+                  <span class="difficulty-pill">Easy to Medium</span>
+                </div>
+                <p class="project-description">
+                  A clean weather dashboard that fetches live forecasts for any city. Includes smooth loading and error states, and remembers your recent searches.
+                </p>
+                <ul class="project-tags" aria-label="Skills used">
+                  <li>API Calls (fetch/axios)</li>
+                  <li>async/await</li>
+                  <li>Browser APIs</li>
+                  <li>localStorage</li>
+                </ul>
+                <div class="project-actions">
+                  
+                  <a href="#" class="btn btn-outline btn-sm placeholder-link" data-placeholder-link="true">
+                    <span>View Live</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                 
+                  <a href="#" class="btn btn-ghost btn-sm placeholder-link" data-placeholder-link="true">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+        
+            <article class="project-card">
+              <div class="project-preview">
+                <div class="project-preview-grid" aria-hidden="true"></div>
+                <div class="project-preview-icon">
+                  <i class="fa-solid fa-list-check" aria-hidden="true"></i>
+                </div>
+                <span class="project-preview-label">Productivity Tool</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top-row">
+                  <h3 class="project-title">Task Manager</h3>
+                  <span class="difficulty-pill">Easy to Medium</span>
+                </div>
+                <p class="project-description">
+                  A simple, fast task manager to add, edit, complete, filter and delete tasks. Your list stays saved between visits.
+                </p>
+                <ul class="project-tags" aria-label="Skills used">
+                  <li>State Management</li>
+                  <li>Controlled Forms</li>
+                  <li>Array Methods</li>
+                  <li>useReducer/Context</li>
+                  <li>localStorage</li>
+                </ul>
+                <div class="project-actions">
+                  
+                  <a href="#" class="btn btn-outline btn-sm placeholder-link" data-placeholder-link="true">
+                    <span>View Live</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                  
+                  <a href="#" class="btn btn-ghost btn-sm placeholder-link" data-placeholder-link="true">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            
+            <article class="project-card">
+              <div class="project-preview">
+                <div class="project-preview-grid" aria-hidden="true"></div>
+                <div class="project-preview-icon">
+                  <i class="fa-solid fa-film" aria-hidden="true"></i>
+                </div>
+                <span class="project-preview-label">Media Discovery</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top-row">
+                  <h3 class="project-title">Movie Search App</h3>
+                  <span class="difficulty-pill">Medium</span>
+                </div>
+                <p class="project-description">
+                  Search millions of movies and explore detailed pages with cast and ratings, powered by multi-page routing and paginated results.
+                </p>
+                <ul class="project-tags" aria-label="Skills used">
+                  <li>React Router</li>
+                  <li>Nested API Data</li>
+                  <li>Custom Hooks</li>
+                  <li>Pagination</li>
+                  <li>Reusable Components</li>
+                </ul>
+                <div class="project-actions">
+                  
+                  <a href="#" class="btn btn-outline btn-sm placeholder-link" data-placeholder-link="true">
+                    <span>View Live</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                 
+                  <a href="#" class="btn btn-ghost btn-sm placeholder-link" data-placeholder-link="true">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            
+            <article class="project-card">
+              <div class="project-preview">
+                <div class="project-preview-grid" aria-hidden="true"></div>
+                <div class="project-preview-icon">
+                  <i class="fa-solid fa-chart-pie" aria-hidden="true"></i>
+                </div>
+                <span class="project-preview-label">Finance Analytics</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top-row">
+                  <h3 class="project-title">Expense Tracker</h3>
+                  <span class="difficulty-pill">Medium</span>
+                </div>
+                <p class="project-description">
+                  Track income and spending, see insights through charts, and export your data. Built with formatted currency and date-based filtering.
+                </p>
+                <ul class="project-tags" aria-label="Skills used">
+                  <li>Complex State</li>
+                  <li>Derived Data</li>
+                  <li>Date Handling</li>
+                  <li>Charts</li>
+                  <li>Currency Formatting</li>
+                  <li>Data Export</li>
+                </ul>
+                <div class="project-actions">
+                  
+                  <a href="#" class="btn btn-outline btn-sm placeholder-link" data-placeholder-link="true">
+                    <span>View Live</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                  
+                  <a href="#" class="btn btn-ghost btn-sm placeholder-link" data-placeholder-link="true">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+           
+            <article class="project-card">
+              <div class="project-preview">
+                <div class="project-preview-grid" aria-hidden="true"></div>
+                <div class="project-preview-icon">
+                  <i class="fa-solid fa-stopwatch" aria-hidden="true"></i>
+                </div>
+                <span class="project-preview-label">Timed Interactive</span>
+              </div>
+
+              <div class="project-content">
+                <div class="project-top-row">
+                  <h3 class="project-title">Quiz App</h3>
+                  <span class="difficulty-pill">Medium</span>
+                </div>
+                <p class="project-description">
+                  A timed, multi-step quiz with randomized questions and instant scoring. Features a countdown timer and a results summary at the end.
+                </p>
+                <ul class="project-tags" aria-label="Skills used">
+                  <li>State Machines</li>
+                  <li>Timers (useEffect cleanup)</li>
+                  <li>Randomisation</li>
+                  <li>Conditional Rendering</li>
+                </ul>
+                <div class="project-actions">
+                 
+                  <a href="#" class="btn btn-outline btn-sm placeholder-link" data-placeholder-link="true">
+                    <span>View Live</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                  </a>
+                  
+                  <a href="#" class="btn btn-ghost btn-sm placeholder-link" data-placeholder-link="true">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+     
+      <section id="contact" class="card-section contact-card reveal">
+        <div class="container contact-inner">
+          <div class="contact-badge" aria-hidden="true">
+            <i class="fa-regular fa-handshake"></i>
+          </div>
+
+          <h2 class="contact-title">
+            Tell me about
+            <span class="heading-muted">your next project</span>
+          </h2>
+
+          <div class="contact-actions">
+            <a href="mailto:giftchinedu111@gmail.com" class="btn btn-primary">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <span>Email</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/giftchinedu?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+            </a>
+
+            <a
+              href="https://github.com/giftchinedu123"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+
+            <a
+              href="https://wa.link/xqc07q"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <hr class="footer-divider" />
+
+          <footer class="site-footer">
+            <p class="copyright">&copy; 2026 Gift Chinedu. All rights reserved.</p>
+            <nav class="footer-nav" aria-label="Footer Navigation">
+              <a href="#home">Home</a>
+              <span class="footer-sep" aria-hidden="true">/</span>
+              <a href="#about">About</a>
+              <span class="footer-sep" aria-hidden="true">/</span>
+              <a href="#works">Works</a>
+              <span class="footer-sep" aria-hidden="true">/</span>
+              <a href="#contact">Contact</a>
+            </nav>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
